@@ -3,6 +3,6 @@ function carregar() {
     var nome = window.document.querySelector("div#nome")
     nome.innerHTML += `<p>Olá ${txtnome}, seja bem vindo ao site!</p>`
     nome.innerHTML += `<p>Seu nome tem ${txtnome.length} letras</p>`
-    nome.innerHTML += `<p>Seu nome todo em <strong>MAIUSUCULO</strong> é: ${txtnome.toUpperCase()}</p>`
+    nome.innerHTML += `<p>Seu nome todo em <strong>MAIUSCULO</strong> é: ${txtnome.toUpperCase()}</p>`
     nome.innerHTML += `<p>Seu nome todo em minusculo é: ${txtnome.toLowerCase()}</p>`
   }
